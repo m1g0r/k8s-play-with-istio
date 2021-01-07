@@ -2,6 +2,7 @@ apiVersion: networking.istio.io/v1alpha3
 kind: DestinationRule
 metadata:
   name: echo1-destination
+  namespace: echo
 spec:
   host: echo1
   subsets:
